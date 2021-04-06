@@ -1,5 +1,9 @@
-export const NavItems = [
+export const NavItems = [ 
   {
+    icon: 'pe-7s-rocket',
+    label: 'Notes',
+    to: '#/notes/notes'
+  },{
     icon: 'pe-7s-rocket',
     label: 'Dashboard Example',
     to: '#/dashboards/basic'

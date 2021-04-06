@@ -17,6 +17,7 @@ import Tables from '../../DemoPages/Tables';
 import Widgets from '../../DemoPages/Widgets';
 import Forms from '../../DemoPages/Forms';
 import Charts from '../../DemoPages/Charts';
+import Notes from '../../components/Notes';
 
 import AppHeader from '../../Layout/AppHeader';
 import AppSidebar from '../../Layout/AppSidebar';
@@ -59,6 +60,7 @@ class Main extends React.Component {
 
                 <div className="app-main__outer">
                   <div className="app-main__inner">
+                    <Route path="/notes" component={Notes} /> 
                     <Route path="/dashboards" component={Dashboards} />
                     <Route path="/elements" component={Elements} />
                     <Route path="/components" component={Components} />
